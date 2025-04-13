@@ -13,11 +13,10 @@ export default function AboutMe() {
               <Image
                 src="/images/photoLinkfufu.png"
                 alt="Ishaan Singh"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 288px"
+                width={288}
+                height={288}
+                className="object-cover w-full h-full"
                 priority
-                unoptimized
               />
             </div>
             
