@@ -7,6 +7,12 @@ import Footer from "@/components/layout/Footer";
 // Import the projects data
 import { projects, Project } from '@/data/projects';
 
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    id: project.id.toString(),
+  }));
+}
+
 export function generateMetadata({ params }: { params: { id: string } }) {
   const project = projects.find(p => p.id === parseInt(params.id));
   
