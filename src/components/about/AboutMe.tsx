@@ -11,7 +11,7 @@ export default function AboutMe() {
           <div className="flex justify-center relative">
             <div className="relative h-72 w-72 overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="/images/photoLinkfufu.png"
+                src="/portfolio/images/photoLinkfufu.png"
                 alt="Ishaan Singh"
                 width={288}
                 height={288}
