@@ -126,7 +126,10 @@ export default function Timeline() {
         {/* Download Resume Button */}
         <div className="flex justify-center mb-10">
           <a 
-            href="#" 
+            href="/documents/Resume_4_7_25.pdf"
+            download="Ishaan_Singh_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-500 dark:text-primary-300 rounded-md hover:bg-primary-200 dark:hover:bg-primary-800/30 transition-colors"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">

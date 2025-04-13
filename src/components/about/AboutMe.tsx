@@ -17,6 +17,7 @@ export default function AboutMe() {
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 288px"
                 priority
+                unoptimized
               />
             </div>
             
