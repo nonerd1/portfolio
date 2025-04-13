@@ -4,8 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // If you're using a custom domain, you might need this
-  // basePath: '/portfolio',
+  basePath: '/portfolio',
 };
 
 module.exports = nextConfig; 
